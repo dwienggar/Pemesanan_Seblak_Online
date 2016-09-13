@@ -16,6 +16,6 @@ Aplikasi ini digunakan untuk memesan seblak secara online. Isikan nama, alamat, 
 Dapatkan di https://drive.google.com/open?id=0B_q33HA0JI5hbDRiSVZ3QlltUjA
 
 ## Identitas
-Dwi Enggar Purbowati, XIIRPL 1 / 14
+Dwi Enggar Purbowati, XII RPL 1 / 14
 
 4328/1226.070 SMK TELKOM MALANG
