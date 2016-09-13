@@ -37,18 +37,21 @@
         <EditText
             android:id="@+id/editTextNama"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="Nama" />
 
         <EditText
             android:id="@+id/editTextAlamat"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="Alamat" />
 
         <EditText
             android:id="@+id/editTextNohp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="No HP"
             android:inputType="numberSigned" />
 
         <TextView
@@ -58,6 +61,7 @@
             android:text="Pilihan Seblak" />
 
         <RadioGroup
+            android:id="@+id/rgpilihan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -112,7 +116,8 @@
         <Spinner
             android:id="@+id/spinnerPembayaran"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:entries="@array/pembayaran" />
 
         <Button
             android:id="@+id/button"
@@ -125,31 +130,37 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Nama" />
+            tools:text="Nama               : " />
 
         <TextView
             android:id="@+id/textViewAlamat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Alamat" />
+            tools:text="Alamat             : " />
 
         <TextView
             android:id="@+id/textViewNohp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No Hp" />
+            tools:text="No Hp              : " />
 
         <TextView
             android:id="@+id/textViewPilihan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pilihan" />
+            tools:text="Pilihan             : " />
+
+        <TextView
+            android:id="@+id/textViewTopping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Topping          : " />
 
         <TextView
             android:id="@+id/textViewPembayaran"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pembayaran" />
+            tools:text="Pembayaran   : " />
 
     </LinearLayout>
 </ScrollView>
